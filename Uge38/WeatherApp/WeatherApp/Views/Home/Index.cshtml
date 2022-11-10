@@ -1,0 +1,101 @@
+﻿@using WeatherLibrary;
+@model WeatherLibrary.Root
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the weather forecast for</h1>
+    <h2 class="display-4"> @Html.DisplayFor(model => model.city.name) </h2>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Num of days: <input type="text" name="DaysString" value="@ViewData["DaysFilter"]" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+</form>
+<a asp-action="Index" asp-route-units="metric">Metric</a>
+<a asp-action="Index" asp-route-units="imperial">Imperial</a>
+<a asp-action="Index" asp-route-units="">Standard</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Time
+            </th>
+            <th>
+                Weather
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Icon
+            </th>
+            <th>
+                Humidity
+            </th>
+            <th>
+                Temp
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["PoPSortParm"]"> Possibility of Rain </a>
+            </th>
+            <th>
+                Day or night
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach(List l in Model.list)
+        {
+            <tr>
+                <td>
+                    @l.dt_txt
+                </td>
+                @foreach(Weather w in l.weather)
+                {
+                    <td>
+                        @w.main;
+                    </td>
+                    <td>
+                        @w.description;
+                    </td>
+                    <td>
+                        @if (true)
+                        {
+                            string s = "http://openweathermap.org/img/wn/" + w.icon + "@2x.png";
+                            <img src="@s" alt="ImageNotFound" />
+                        }
+                        <br />
+                    </td>
+                }
+                <td>
+                    @l.main.humidity%
+                </td>
+                <td>
+                    @l.main.temp c
+                </td>
+                <td>
+                    @l.pop
+                </td>
+                <td>
+                    @if(l.sys.pod == "n")
+                    {
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/1015px-Full_Moon_Luc_Viatour.jpg" style="width: 100px"/>
+                    }
+                    else
+                    {
+                        <img src="https://res.cloudinary.com/dtpgi0zck/image/upload/s--fMAvJ-9u--/c_fit,h_580,w_860/v1/EducationHub/photos/sun-blasts-a-m66-flare.jpg" style="width: 100px"/>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

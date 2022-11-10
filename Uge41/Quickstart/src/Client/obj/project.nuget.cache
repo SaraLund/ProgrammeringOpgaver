@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "018QFJyWnp3pNBt/Z5uIH7cqSxljVFqCOjW6QSgGLT7eXN9bTK/cHCe5SvNvOkuDDDamSpEk38Doee27ONCP+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\masai\\Dropbox\\Datamatiker\\3.Semester\\Programmering ll\\Opgaver\\Uge41\\Quickstart\\src\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\masai\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
