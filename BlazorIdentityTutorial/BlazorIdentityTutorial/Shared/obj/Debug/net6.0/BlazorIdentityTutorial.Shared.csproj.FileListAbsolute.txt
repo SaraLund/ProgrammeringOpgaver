@@ -1,0 +1,12 @@
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\bin\Debug\net6.0\BlazorIdentityTutorial.Shared.deps.json
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\bin\Debug\net6.0\BlazorIdentityTutorial.Shared.dll
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\bin\Debug\net6.0\BlazorIdentityTutorial.Shared.pdb
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\BlazorIdentityTutorial.Shared.csproj.AssemblyReference.cache
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\BlazorIdentityTutorial.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\BlazorIdentityTutorial.Shared.AssemblyInfoInputs.cache
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\BlazorIdentityTutorial.Shared.AssemblyInfo.cs
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\BlazorIdentityTutorial.Shared.csproj.CoreCompileInputs.cache
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\BlazorIdentityTutorial.Shared.dll
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\refint\BlazorIdentityTutorial.Shared.dll
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\BlazorIdentityTutorial.Shared.pdb
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\BlazorIdentityTutorial\BlazorIdentityTutorial\Shared\obj\Debug\net6.0\ref\BlazorIdentityTutorial.Shared.dll

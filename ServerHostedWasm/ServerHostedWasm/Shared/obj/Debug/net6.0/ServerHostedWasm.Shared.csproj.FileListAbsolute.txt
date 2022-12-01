@@ -1,0 +1,12 @@
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\bin\Debug\net6.0\ServerHostedWasm.Shared.deps.json
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\bin\Debug\net6.0\ServerHostedWasm.Shared.dll
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\bin\Debug\net6.0\ServerHostedWasm.Shared.pdb
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\ServerHostedWasm.Shared.csproj.AssemblyReference.cache
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\ServerHostedWasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\ServerHostedWasm.Shared.AssemblyInfoInputs.cache
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\ServerHostedWasm.Shared.AssemblyInfo.cs
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\ServerHostedWasm.Shared.csproj.CoreCompileInputs.cache
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\ServerHostedWasm.Shared.dll
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\refint\ServerHostedWasm.Shared.dll
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\ServerHostedWasm.Shared.pdb
+C:\Users\masai\OneDrive\Skrivebord\Git repos\ProgrammeringOpgaver\ServerHostedWasm\ServerHostedWasm\Shared\obj\Debug\net6.0\ref\ServerHostedWasm.Shared.dll

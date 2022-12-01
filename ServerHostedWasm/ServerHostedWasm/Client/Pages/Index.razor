@@ -1,0 +1,52 @@
+﻿@page "/"
+@using ServerHostedWasm.Shared;
+@using System.Text.Json
+@inject HttpClient Http;
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Surfboard s in surfboards)
+        {
+            <tr>
+                <td>
+                    @s.Name
+                </td>
+                <td>
+                    @s.Price
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code{
+    private List<Surfboard>? surfboards = new List<Surfboard>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        using HttpResponseMessage response = await Http.GetAsync("https://localhost:7017/api/Surfboards");
+        response.EnsureSuccessStatusCode();
+        var jsonRespone = await response.Content.ReadAsStringAsync();
+        var options = new JsonSerializerOptions()
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            };
+        var Surfboard = JsonSerializer.Deserialize<List<Surfboard>>(jsonRespone, options);
+        surfboards = Surfboard;
+        //options = surfboards.Select(s => s.Name).Distinct().ToList();
+    }
+}
